@@ -4,7 +4,8 @@
   "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production npx tailwindcss build -i css/tailwind.css",
+    "dev": "vite",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.14"
   }
 }
